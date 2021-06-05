@@ -1,0 +1,28 @@
+[
+  {
+  "photoCard": "https://nemaloknig.com/picimg/399/3995/39950/399506/cover.jpg",
+  "photoCard_title":"Призрак на чердаке",
+  "rating": "3",
+   "id": 0
+  },
+  {
+    "photoCard":"https://book-cover.ru/sites/default/files/field/image/dostoevskiy-idiot-amerika-12.jpg",
+    "photoCard_title":"The Idiot",
+    "rating":"6",
+    "id": 1
+  },
+  {
+    "photoCard":"https://www.sobaka.ru/images/image/01/26/42/13/_normal.jpg",
+    "photoCard_title":"Мировая революция и коммунистический интернационал",
+    "rating":"10",
+    "id": 2
+
+  },
+  {
+    "photoCard":"https://i.pinimg.com/236x/3f/56/fd/3f56fdacff697f8b003b7882aae2f179.jpg",
+    "photoCard_title":"Anya and the nightingale",
+    "rating":"8",
+    "id": 3
+  }
+]
+

@@ -1,0 +1,97 @@
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding :0;
+}
+
+.navbar-dark{
+    background-color:#1d2133;
+    box-sizing:border-box;
+}
+#logo{
+    border-radius: 15px;
+}
+@media (max-width: 294px) {
+    #logo {
+     display:none;
+    }
+}
+.navbar-brand{
+    color: aliceblue !important;
+}
+.navbar-dark .navbar-toggler{
+    border-color: rgb(255,255,255) !important;
+}
+.mui-container {
+  display: flex;
+  width: 70%;
+  margin-top: 2%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photobar {
+    padding: 1.5rem 1rem 1.5rem;
+    font-size: 1em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: table;
+    margin:10px;
+}
+.photobar-item {
+    text-align: center;
+    display: block;
+    margin: auto;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    width:95%;
+    }
+.navbar{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    width:auto;
+    height:auto;
+}
+.modal {
+    max-width:30%;
+    height:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    display:table;
+    background-color: white;
+    padding-top:1%;
+}
+.modal .modal-content{
+    font-size: 1.2em;
+    text-align: center;
+    border:none;
+    vert-align: middle;
+    margin-bottom:auto;
+}
+
+.modal .modal-photo {
+  width: 95%;
+  height: 80%;
+  padding: 2rem auto;
+  text-align: center;
+  display: block;
+  margin: auto;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  min-height: 200px;
+}
+.error{
+border:2px solid red !important
+}
+.error-t{
+    color:red
+}
+#form{
+  width:800px;
+}
+.modal-content{
+  display:inline-block;
+}
